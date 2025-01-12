@@ -1,0 +1,7 @@
+[project]
+name = "birds-watcher"
+version = "0.1.0"
+description = "watch and record birds with a camera"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["opencv-python>=4.10.0.84"]
