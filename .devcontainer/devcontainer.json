@@ -9,7 +9,7 @@
     "mounts": [
         "type=bind,source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/vscode/.ssh,readonly"
     ],
-    "postCreateCommand": "python3 -m pip install uv",
+    "postCreateCommand": "sudo apt update && sudo apt install ffmpeg libsm6 libxext6 -y python3 -m pip install uv",
     // pip3 install --user -r requirements.txt"
     "customizations": {
         "vscode": {
