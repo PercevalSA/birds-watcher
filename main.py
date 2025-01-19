@@ -20,6 +20,7 @@ while (True):
         print("Motion detected!")
         print("Started recording.")
         detected_motion = True
+
     if detected_motion:
         out.write(frame)
         frame_rec_count = frame_rec_count + 1
